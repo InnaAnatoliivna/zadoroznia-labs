@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Nowoczesne CV + list motywacyjny",
+    "description": "Pomagam stworzyć nowoczesne, dopasowane do stanowiska CV oraz list motywacyjny. Zwracam uwagę na przejrzystość, słowa kluczowe i unikalne wyróżniki kandydata. Otrzymujesz wersję gotową do wydruku (PDF) oraz plik edytowalny (Word lub Google Docs), co ułatwia późniejszą edycję.",
+    "additionally": "👉 Możliwa wersja CV jako nowoczesna, osobista strona internetowa."
+  },
+  {
+    "name": "Strona internetowa - wizytówka dla freelancerów/artystów",
+    "description": "Tworzę lekkie, estetyczne strony, które prezentują Twoją ofertę, portfolio, dane kontaktowe i profile społecznościowe. Strona działa świetnie na telefonach i komputerach, jest szybka i zoptymalizowana pod SEO.",
+    "additionally": "👉 Opcjonalnie przygotowuję gotowe teksty, strukturę strony oraz integrację z mapami Google"
+  },
+  {
+    "name": "Strona internetowa - portfolio",
+    "description": "Projektuję internetowe portfolio do prezentacji Twojej pracy: zdjęć, projektów graficznych, stron, ilustracji lub innych realizacji. Strona zawiera sekcje z opisami, galerią, informacją o Tobie oraz możliwością kontaktu.",
+    "additionally": "👉 Pomagam również z tekstami, tłumaczeniami i SEO, by Twoje portfolio było widoczne w wyszukiwarce."
+  },
+  {
+    "name": "Wsparcie i aktualizacja stworzonej strony",
+    "description": "Oferuję opiekę nad stroną po jej uruchomieniu: mogę zaktualizować treści, zdjęcia, cennik, dodać nowe sekcje lub pomóc w przypadku problemów technicznych. Dzięki temu nie musisz się martwić o techniczne aspekty swojej obecności online.",
+    "additionally": "👉 Wsparcie dostępne jednorazowo lub w formie regularnej współpracy."
+  },
+  {
+    "name": "Treści do social mediów (AI-content)",
+    "description": "Tworzę kreatywne i angażujące teksty do mediów społecznościowych: posty, opisy produktów, hasła reklamowe, stories. Dostosowuję styl do Twojej branży i grupy docelowej.",
+    "additionally": "👉 Możliwość zamówienia gotowych grafik w Canva w spójnym stylu."
+  },
+  {
+    "name": "Prezentacja biznesowa lub szkolna z AI",
+    "description": "Projektuję profesjonalne prezentacje na potrzeby spotkań firmowych, konferencji, szkoleń lub uczelni. Uwzględniam układ graficzny, infografiki, kolory brandowe i czytelność. Mogę opracować treść przy pomocy AI i przygotować wersję do druku lub online.",
+    "additionally": "👉 Dostępne formaty: PowerPoint, Google Slides lub PDF."
+  },
+  {
+    "name": "Mini chatbot dla strony lub Facebooka",
+    "description": "Instaluję i konfiguruję prostego chatbota, który odpowiada na najczęstsze pytania, pomaga z rezerwacjami lub prowadzi użytkownika do formularza kontaktowego. To świetne narzędzie do automatyzacji komunikacji i zwiększenia komfortu klienta.",
+    "additionally": "👉 Idealny dla salonów, freelancerów, małych biznesów."
+  },
+  {
+    "name": "Cyfryzacja treści i dokumentów",
+    "description": "Pomagam przenieść papierowe lub zeskanowane dokumenty do formy cyfrowej – przepisuję, redaguję, tłumaczę i układam w estetyczne PDF-y. Oferuję też tworzenie menu online, cenników, e-wizytówek czy formularzy kontaktowych.",
+    "additionally": "👉 Usługa szczególnie przydatna dla firm, które chcą usprawnić organizację lub prezentację oferty."
+  }
+]

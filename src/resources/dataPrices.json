@@ -1,0 +1,42 @@
+[
+  {
+    "service": "Nowoczesne CV + list motywacyjny",
+    "price": "50 zł",
+    "additionally": "Opcja CV jako strona internetowa: +100 zł"
+  },
+  {
+    "service": "Strona internetowa typu wizytówka",
+    "price": "od 300 zł",
+    "additionally": "Z pakietem social media i tekstami: od 550 zł"
+  },
+  {
+    "service": "Strona internetowa portfolio",
+    "price": "od 300 zł",
+    "additionally": " Z pakietem social media i tekstami: od 550 zł"
+  },
+  {
+    "service": "Wsparcie i aktualizacja stworzonej strony",
+    "price": "od 50 zł",
+    "additionally": "Pomoc techniczna, zmiany w treści i materiałach"
+  },
+  {
+    "service": "Treści do social mediów (AI-content) pakiet 5 tekstów ",
+    "price": "od 50 zł ",
+    "additionally": "opcja z grafikami Canva: +30 zł"
+  },
+  {
+    "service": "Prezentacja biznesowa lub szkolna z AI",
+    "price": "od 150 zł",
+    "additionally": "PDF lub PowerPoint z grafiką, infografikami, AI-opracowaniem"
+  },
+  {
+    "service": "Mini chatbot dla strony lub Facebooka",
+    "price": "od 300 zł",
+    "additionally": "Podstawowy chatbot do FAQ, rezerwacji, kontaktu"
+  },
+  {
+    "service": "Cyfryzacja treści i dokumentów",
+    "price": "od 50 zł",
+    "additionally": "Online menu / e-wizytówka: od 120 zł"
+  }
+]
