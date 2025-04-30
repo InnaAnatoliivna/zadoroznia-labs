@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/zadoroznia-labs/static/css/main.012dbf9e.css",
+    "main.js": "/zadoroznia-labs/static/js/main.b998c582.js",
+    "static/js/453.fd6deb9b.chunk.js": "/zadoroznia-labs/static/js/453.fd6deb9b.chunk.js",
+    "static/media/DMSans-Regular.eot": "/zadoroznia-labs/static/media/DMSans-Regular.02404f44a79848643827.eot",
+    "static/media/DMSans-Medium.eot": "/zadoroznia-labs/static/media/DMSans-Medium.c1723b7044554a8644f3.eot",
+    "static/media/DMSans-Bold.eot": "/zadoroznia-labs/static/media/DMSans-Bold.f0558282b3842089cb3c.eot",
+    "static/media/DMSans-Regular.ttf": "/zadoroznia-labs/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
+    "static/media/DMSans-Bold.ttf": "/zadoroznia-labs/static/media/DMSans-Bold.c423ce2dc1d85bc50799.ttf",
+    "static/media/DMSans-Medium.ttf": "/zadoroznia-labs/static/media/DMSans-Medium.150680530af9dd9fd00b.ttf",
+    "static/media/DMSans-Regular.woff": "/zadoroznia-labs/static/media/DMSans-Regular.63edb8194c41678bcc8e.woff",
+    "static/media/DMSans-Medium.woff": "/zadoroznia-labs/static/media/DMSans-Medium.167d68fed22fd324897c.woff",
+    "static/media/DMSans-Bold.woff": "/zadoroznia-labs/static/media/DMSans-Bold.a69a577e0101b6a4913d.woff",
+    "static/media/DMSans-Regular.woff2": "/zadoroznia-labs/static/media/DMSans-Regular.bb7a29159298325ac439.woff2",
+    "static/media/DMSans-Bold.woff2": "/zadoroznia-labs/static/media/DMSans-Bold.4db4fdab65d92a8037a8.woff2",
+    "static/media/DMSans-Medium.woff2": "/zadoroznia-labs/static/media/DMSans-Medium.7bbba1b9533c9efdbdc4.woff2",
+    "index.html": "/zadoroznia-labs/index.html",
+    "main.012dbf9e.css.map": "/zadoroznia-labs/static/css/main.012dbf9e.css.map",
+    "main.b998c582.js.map": "/zadoroznia-labs/static/js/main.b998c582.js.map",
+    "453.fd6deb9b.chunk.js.map": "/zadoroznia-labs/static/js/453.fd6deb9b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.012dbf9e.css",
+    "static/js/main.b998c582.js"
+  ]
+}
