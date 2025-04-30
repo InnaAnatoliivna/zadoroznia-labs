@@ -1,38 +1,130 @@
-.App {
+/* @import url("/node_modules/modern-normalize/modern-normalize.css"); */
+@import "modern-normalize/modern-normalize.css";
+@import url("./css/font.css");
+
+:root {
+  /* --bc-header: #efefef;
+  --bc-hero: #d6cfc7; */
+  --color-main-text: #1b2b42;
+  --color-sup-text: #1f3668;
+  --color-second-text: #4e8d96;
+  --color-cards: #cad6e2;
+  --color-border: #82b5b0;
+
+  --color-accent: #e9a039;
+
+  --color-dark: #192b35;
+  --color-light: #d4fbfa;
+
+  --color-blue: #1c82c4;
+  --color-test: #c1d7cb;
+
+  --color-black: #040404;
+  --color-white: #ffffff;
+
+  --accent-color-gray: rgba(239, 237, 232, 0.3);
+  --accent-color-border: rgba(239, 237, 232, 0.2);
+  --accent-color-user-ava: rgba(239, 237, 232, 0.1);
+
+  --shadow-cards: -16px 24px 52px -8px rgba(108, 108, 108, 0.75);
+  --shadow-cards-second: 2px 12px 40px -23px rgba(108, 108, 108, 0.75);
+  --shadow-card-inset: 7px -4px 24px -136px rgba(108, 108, 108, 0.75) inset;
+  --shadow-for-line: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
+  --shadow-text-title: 3px 3px 5px rgba(0, 0, 0, 0.4);
+
+  --card-border-radius: 28px;
+
+  --transition-list: border linear 500ms;
+  --transition-list-second: transform linear 500ms;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-black);
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* ======================================================== */
+/* .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
   text-align: center;
+  font-size: 18px;
+  background: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
