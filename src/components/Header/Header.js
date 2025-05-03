@@ -1,24 +1,24 @@
 import Container from '../Container/Container';
 import {
     Navigation, List, Wrapper,
-    // MenuIconStyled, ButtonMenu, LinkStyled
+    MenuIconStyled, ButtonMenu, LinkStyled
 } from './Header.styled';
 import { useMediaQuery } from 'react-responsive';
 import { useEffect, useState } from 'react';
-// import MobileMenu from '../MobileMenu/MobileMenu';
-// import MenuItems from '../MenuItems/MenuItems';
+import MobileMenu from '../MobileMenu/MobileMenu';
+import MenuItems from '../Menu/Menu';
 import Logo from '../Logo/Logo';
-// import { ListItem } from '../MenuItems/MenuItems.styled';
+import { ListItem } from '../Menu/Menu.styled';
 
 const Header = () => {
 
-    // const [isOpenMenu, setIsOpenMenu] = useState(false);
+    const [isOpenMenu, setIsOpenMenu] = useState(false);
     const [isSticky, setIsSticky] = useState(false);
 
     const isDesktopOrTablet = useMediaQuery({ query: '(min-width: 768px)' });
-    // const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
 
-    // const handleMobileMenu = () => setIsOpenMenu(!isOpenMenu);
+    const handleMobileMenu = () => setIsOpenMenu(!isOpenMenu);
 
     // sticky header-------------------------->>>
     const handleScroll = () => {
@@ -44,22 +44,22 @@ const Header = () => {
             <Container>
                 <Navigation>
                     <Logo
-                    // onClick={handleMobileMenu} 
+                        onClick={handleMobileMenu}
 
                     />
-                    {/* {isMobile && (
+                    {isMobile && (
                         <ButtonMenu type='button' onClick={handleMobileMenu}>
                             <MenuIconStyled />
                         </ButtonMenu>)
-                    } */}
+                    }
 
                     {isDesktopOrTablet && (
                         <List>
-                            <Logo />
-                            {/* <MenuItems isMobile={false} /> */}
-                        </List>)}
+                            <MenuItems isMobile={false} />
+                        </List>
+                    )}
 
-                    {/* {isOpenMenu &&
+                    {isOpenMenu &&
                         (<MobileMenu showMenu={handleMobileMenu}>
 
                             <MenuItems isMobile={true} onLinkClick={handleMobileMenu}>
@@ -67,7 +67,7 @@ const Header = () => {
                                     <LinkStyled to='/'>GłÓWNA</LinkStyled>
                                 </ListItem>
                             </MenuItems>
-                        </MobileMenu>)} */}
+                        </MobileMenu>)}
                 </Navigation>
             </Container>
         </Wrapper>

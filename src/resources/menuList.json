@@ -4,12 +4,12 @@
     "link": "/usługi"
   },
   {
-    "name": "CENNIK",
-    "link": "/cennik"
-  },
-  {
     "name": "DLACZEGO WARTO?",
     "link": "/dlaczego-warto"
+  },
+  {
+    "name": "CENNIK",
+    "link": "/cennik"
   },
   {
     "name": "PYTANIA I ODPOWIEDZI",

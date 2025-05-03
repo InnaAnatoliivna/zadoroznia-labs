@@ -2,18 +2,17 @@
 // import Catalog from "../../components/CatalogSection/Catalog";
 // import Feedback from "../../components/FeedbackSection/Feedback";
 // import Hero from "../../components/Hero/Hero";
-// import { Wrapper } from "./MainPage.styled";
+import { Wrapper } from "./MainPage.styled";
 
 const MainPage = () => {
 
     return (
-        <div>Hello</div>
-        // <Wrapper>
-        //     <Hero />
-        //     <About />
-        //     <Catalog />
-        //     <Feedback />
-        // </Wrapper>
+        <Wrapper>
+            {/* <Hero /> */}
+            {/* <About /> */}
+            {/* <Catalog /> */}
+            {/* <Feedback /> */}
+        </Wrapper>
     )
 };
 

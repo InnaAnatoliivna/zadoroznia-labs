@@ -7,7 +7,7 @@ const Logo = () => {
             <img
                 src={logo}
                 alt='Zadorożnia Labs'
-                width='300'
+                width='172'
                 loading='lazy'
             />
         </Link>
