@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const Wrapper = styled.div`
     width: 100vw;
     background-color: ${({ isSticky }) => (isSticky ? '#efefef9a' : 'var(--bc-header)')};
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid var(--color-border);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     /* --for sticky-->>> */
     z-index: 1000;
@@ -44,20 +44,17 @@ export const MenuIconStyled = styled(CiMenuBurger)`
 
 export const LinkStyled = styled(Link)`
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
     padding: 10px 27px;
-    color: var(--color-black);
-    border: 1px solid var(--color-main-text);
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    border-radius: 12px;
+    color: var(--color-main-text);
 
     &.active {
         color: orange;
     }
     &:hover, :focus {
-        border: 1px solid var(--color-black);
+        /* border: 1px solid var(--color-blue); */
     }
     a {
         color: var(--color-main-text);

@@ -1,4 +1,12 @@
 const contentData = {
+    "heroInfo": {
+        "title": "Zadorożnia Labs",
+        "services": "Strony | CV | Treści | Chatboty | Grafika",
+        "supTitle": "Zadbam o każdy szczegół Twojej obecności online.",
+        "subTitle": "Twoje pomysły - moja realizacja.",
+        "signature": "Z miłości do kodu, treści i estetyki - Ina Zadorożnia",
+        "buttonHero": "ZRÓBMY COŚ RAZEM"
+    },
     "approach": {
         "title": "Moje podejście",
         "description": "Cześć! Jestem Ina Zadorożnia – fullstack developerka z artystyczną duszą. Jako fullstack developerka i kreatorka treści oferuję kompleksowe wsparcie online – od strony internetowej, przez teksty i grafiki, po chatboty i dokumenty. Dbam o spójność, funkcjonalność i dobrą komunikację z odbiorcą. Pracuję krok po kroku i z dbałością o każdy szczegół."

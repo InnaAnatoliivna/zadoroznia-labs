@@ -1,4 +1,5 @@
 import { socialNetworks } from "../../utils/links";
+import { TfiEmail } from "react-icons/tfi";
 
 
 const NetworkList = () => {
@@ -15,6 +16,9 @@ const NetworkList = () => {
                     {icon}
                 </a>
             )}
+            <a href="mailto:zadoroznia.labs@outlook.com">
+                <TfiEmail />
+            </a>
         </>
     )
 };

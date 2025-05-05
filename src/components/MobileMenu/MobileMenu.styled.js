@@ -37,28 +37,28 @@ export const WrappLinks = styled.div`
   position: relative;
   svg {
     font-size: 30px;
-    color: var(--color-black);
+    color: var(--color-blue);
   }
 `;
 
 export const Text = styled.p`
 position: absolute;
-top: -48px;
+top: -35px;
 
 font-size: 15px;
-color: var(--color-main-text);
+color: var(--color-sup-text);
 
 &::after {
         content: '';
         display: block;
         width: 220px;
         height: 1.5px;
-        background-color: var(--color-main-text);
+        background-color: var(--color-blue);
         box-shadow: var(--shadow-cards-second);
         border-radius: var(--card-border-radius);
 
         position: absolute;
-        top: 30px;
+        top: -25px;
         right: -72px;
     };
 `;
@@ -116,7 +116,7 @@ export const CloseButton = styled.button`
   border: none;
   cursor: pointer;
   p {
-    color:  var(--color-black);
+    color:  var(--color-blue);
   }
 `;
 
@@ -135,18 +135,15 @@ export const NavList = styled.ul`
 
 export const Link = styled(NavLink)`
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
   padding: 10px 27px;
-  color: var(--color-black);
-  border: 1px solid var(--color-main-text);
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  border-radius: 12px;
+  color: var(--color-main-text);
 
   &:hover,
   :focus {
-    border: 1px solid var(--color-black);
+    border: 1px solid var(--color-main-text);
   }
 `;
 

@@ -11,5 +11,5 @@ export const socialNetworks = [
         name: 'Facebook',
         link: 'https://www.facebook.com/zadoroznia.technologies.maker',
         icon: <FaFacebookSquare />,
-    },
+    }
 ];
